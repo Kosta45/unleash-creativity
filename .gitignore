@@ -1,0 +1,67 @@
+# ===============================
+# CORE
+# ===============================
+
+# Node.js dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# ===============================
+# GULP / FRONT-END
+# ===============================
+
+# Build output folder
+dist/
+
+# Optional temp or build folders
+build/
+.temp/
+.tmp/
+
+# ===============================
+# SYSTEM FILES
+# ===============================
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===============================
+# IDE AND EDITOR SETTINGS
+# ===============================
+
+# Visual Studio Code settings
+.vscode/
+.history/
+*.code-workspace
+
+# JetBrains IDEs (WebStorm, PhpStorm, etc.)
+.idea/
+*.iml
+
+# ===============================
+# OTHER TEMP FILES
+# ===============================
+
+# Sublime Text workspace files
+*.sublime-workspace
+*.sublime-project
+
+# Linter caches
+.eslintcache
+.stylelintcache
