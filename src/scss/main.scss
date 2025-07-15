@@ -1,2 +1,17 @@
-// * Це головний sass/scss файл проекту
-// * імпортуйте сюди всі інші ваші файли sass/scss
+// utils
+@import "utils/functions";
+@import "utils/mixins";
+@import "utils/variables";
+
+// base
+@import "base/normalize";
+@import "base/global";
+
+// layout
+@import "layout/header";
+@import "layout/footer";
+
+// components
+
+// sections
+@import "sections/hero";
