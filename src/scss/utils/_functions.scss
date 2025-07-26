@@ -1,0 +1,9 @@
+@use "sass:math";
+
+@function rem($pixel) {
+  @if math.is-unitless($pixel) {
+    @return math.div($pixel, 16) + rem;
+  } @else {
+    @error 'Do not use the measurement results when working with rem() reduction! Pass only numbers as an argument.';
+  }
+}
