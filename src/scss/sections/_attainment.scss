@@ -1,0 +1,61 @@
+.attainments__section-wrapper {
+  background-color: $color-light-black;
+  overflow: hidden;
+}
+
+.attainments__section {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.attainments__info {
+  display: flex;
+  flex-direction: column;
+  gap: rem(40);
+  width: rem(530);
+  margin-block: rem(102);
+}
+
+.attainments__title {
+  font-weight: 700;
+  font-size: rem(48);
+  color: $color-yellow;
+  font-family: $font-heading;
+}
+
+.attainments__text {
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  font-family: $font-main;
+}
+
+.attainments__background {
+  overflow: hidden;
+  object-fit: contain;
+  position: absolute;
+  left: clamp(30%, 68vw, 90%);
+}
+
+.attainments__list {
+  display: flex;
+  gap: rem(96);
+}
+
+.attainments__item-quantity {
+  font-family: $font-heading;
+  font-weight: 700;
+  font-size: rem(48);
+  color: $color-white;
+  margin-bottom: rem(5);
+}
+
+.attainments__item-text {
+  font-weight: 700;
+  font-size: rem(16);
+  color: $color-white;
+  font-family: $font-main;
+}

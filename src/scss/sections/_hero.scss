@@ -1,0 +1,18 @@
+.main__hero-wrapper {
+  background: linear-gradient(0.1turn, $color-light-gray, $color-yellow);
+  width: 100%;
+  overflow: hidden;
+}
+
+.main__hero {
+  margin: auto;
+}
+
+.main__hero-title {
+  font-family: $font-heading;
+  font-size: rem(80);
+  font-weight: 700;
+  color: $color-white;
+  padding-top: rem(491);
+  padding-bottom: rem(119);
+}

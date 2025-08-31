@@ -1,0 +1,42 @@
+.header {
+  background-color: #202020;
+  display: flex;
+  justify-content: center;
+  // position: fixed;
+  width: 100%;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: rem(18);
+}
+
+.header__menu-list {
+  display: flex;
+  gap: rem(20);
+}
+
+.header__menu-link {
+  display: flex;
+  align-items: center;
+  gap: rem(12);
+}
+
+.header__icon-img {
+  height: rem(16);
+}
+
+.header__menu-link {
+  padding: rem(10) rem(16);
+  border: 1px solid $color-white;
+  border-radius: 20px;
+}
+
+.header__logo-text {
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  font-family: $font-main;
+}
