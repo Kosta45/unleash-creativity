@@ -21,65 +21,118 @@
 
   <body>
     <header class="header">
-      <a href="" class="header__logo-link">
-        <img
-          class="header__logo-img"
-          src="./images/icons/icon-logo.svg"
-          alt=""
-          width="56"
-          height="56"
-        />
-      </a>
-      <ul class="header__menu-list">
-        <li class="header__menu-item">
-          <a href="" class="header__menu-link">
-            <img
-              width="16"
-              height="16"
-              class="header__logo-img"
-              src="./images/icons/icon-portfolio.svg"
-              alt="Portfolio logo"
-            />
-            <p>Portfolio</p>
-          </a>
-        </li>
-        <li class="header__menu-item">
-          <a href="" class="header__menu-link">
-            <img
-              width="13"
-              height="16"
-              class="header__logo-img"
-              src="./images/icons/icon-resume.svg"
-              alt="Resume logo"
-            />
-            <p>Resume</p>
-          </a>
-        </li>
-        <li class="header__menu-item">
-          <a href="" class="header__menu-link">
-            <img
-              width="16"
-              height="16"
-              class="header__logo-img"
-              src="./images/icons/icon-testimonials.svg"
-              alt="Testimonials logo"
-            />
-            <p>Testimonials</p>
-          </a>
-        </li>
-        <li class="header__menu-item">
-          <a href="" class="header__menu-link">
-            <img
-              width="16"
-              height="16"
-              class="header__logo-img"
-              src="./images/icons/icon-contact.svg"
-              alt="Contact logo"
-            />
-            <p>Contact</p>
-          </a>
-        </li>
-      </ul>
+      <div class="header__wrapper container">
+        <a href="" class="header__logo-link">
+          <img
+            class="header__logo-img"
+            src="./images/icons/icon-logo.svg"
+            alt=""
+            width="56"
+            height="56"
+          />
+        </a>
+        <ul class="header__menu-list">
+          <li class="header__menu-item">
+            <a href="" class="header__menu-link">
+              <img
+                width="16"
+                height="16"
+                class="header__icon-img"
+                src="./images/icons/icon-portfolio.svg"
+                alt="Portfolio logo"
+              />
+              <p class="header__logo-text">Portfolio</p>
+            </a>
+          </li>
+          <li class="header__menu-item">
+            <a href="" class="header__menu-link">
+              <img
+                width="14"
+                height="16"
+                class="header__icon-img"
+                src="./images/icons/icon-resume.svg"
+                alt="Resume logo"
+              />
+              <p class="header__logo-text">Resume</p>
+            </a>
+          </li>
+          <li class="header__menu-item">
+            <a href="" class="header__menu-link">
+              <img
+                width="16"
+                height="16"
+                class="header__icon-img"
+                src="./images/icons/icon-testimonials.svg"
+                alt="Testimonials logo"
+              />
+              <p class="header__logo-text">Testimonials</p>
+            </a>
+          </li>
+          <li class="header__menu-item">
+            <a href="" class="header__menu-link">
+              <img
+                width="16"
+                height="16"
+                class="header__icon-img"
+                src="./images/icons/icon-contact.svg"
+                alt="Contact logo"
+              />
+              <p class="header__logo-text">Contact</p>
+            </a>
+          </li>
+        </ul>
+      </div>
     </header>
+
+    <main class="main">
+      <div class="main__hero-wrapper">
+        <section class="main__hero container">
+          <h1 class="main__hero-title">
+            Unleash Creativity Through Minimalism.
+          </h1>
+        </section>
+      </div>
+
+      <div class="attainments__section-wrapper">
+        <section class="attainments__section container">
+          <div class="attainments__info">
+            <h3 class="attainments__title">Meet Alex Johnsson</h3>
+            <p class="attainments__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna.
+            </p>
+            <ul class="attainments__list">
+              <li class="attainments__item">
+                <h3 class="attainments__item-quantity">39</h3>
+                <span class="attainments__item-text">Happy Clients</span>
+              </li>
+              <li class="attainments__item">
+                <h3 class="attainments__item-quantity">50</h3>
+                <span class="attainments__item-text">Sleek Projects</span>
+              </li>
+              <li class="attainments__item">
+                <h3 class="attainments__item-quantity">24</h3>
+                <span class="attainments__item-text">App Designs</span>
+              </li>
+            </ul>
+          </div>
+          <img
+            src="./images/backgrounds/attaintment-backround.svg"
+            width="339"
+            height="418"
+            alt=""
+            class="attainments__background"
+          />
+        </section>
+      </div>
+
+      <div class="mobile-app__section container">
+        <article class="mobile-app__banking">
+          <figure>
+            <img src="" alt="" />
+          </figure>
+        </article>
+      </div>
+    </main>
   </body>
 </html>
