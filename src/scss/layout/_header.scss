@@ -1,8 +1,19 @@
 .header {
+  position: fixed;
   background-color: #202020;
   display: flex;
+  z-index: 1;
   justify-content: center;
-  // position: fixed;
+  top: -2px;
+  width: 100%;
+}
+
+.header-scroll {
+  position: relative;
+  z-index: 2;
+  background: linear-gradient(0.13turn, #e3dfa2, #ffee32);
+  display: flex;
+  justify-content: center;
   width: 100%;
 }
 
@@ -39,4 +50,10 @@
   font-size: 16px;
   color: #fff;
   font-family: $font-main;
+}
+
+@media (max-width: 1200px) {
+  .header-scroll {
+    display: none;
+  }
 }
