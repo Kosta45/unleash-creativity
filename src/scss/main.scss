@@ -1,7 +1,7 @@
 // utils
 @import "utils/functions";
 // @import "utils/mixins";
-@import "utils/variables";
+@import "base/variables";
 
 // base
 @import "base/normalize";
@@ -16,3 +16,4 @@
 // sections
 @import "sections/hero";
 @import "sections/attainment";
+@import "sections/mobile-section";

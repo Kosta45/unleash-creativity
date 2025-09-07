@@ -324,4 +324,79 @@ a {
   font-size: 1rem;
   color: #ffffff;
   font-family: "Manrope", sans-serif;
+}
+
+.mobile-app__section {
+  background-color: #3c3c3c;
+  padding-block: 5.375rem;
+}
+
+.mobile-app__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+  -moz-column-gap: 2.5rem;
+       column-gap: 2.5rem;
+  row-gap: 3.75rem;
+}
+
+.mobile-app__figure-big {
+  margin: 0;
+  padding: 1.25rem 1.5rem;
+  overflow: hidden;
+}
+
+.mobile-app__figure {
+  padding: 1.25rem;
+}
+
+.mobile-app__item {
+  background-color: #fffef2;
+  border-radius: 24px;
+}
+
+.mobile-app__item-big {
+  grid-column: 1/4;
+}
+
+.mobile-app__link {
+  cursor: pointer;
+}
+
+.mobile-app__img {
+  width: 17.8125rem;
+}
+
+.mobile-app__img-big {
+  width: 63.125rem;
+}
+
+.mobile-app__title {
+  padding-block: 1.25rem 1.375rem;
+  font-family: "DynaPuff", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #565656;
+}
+
+.mobile-app__text {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #000000;
+}
+
+.mobile-app__title-big {
+  font-family: "DynaPuff", sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: #565656;
+}
+
+.mobile-app__text-big {
+  width: 55%;
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #000000;
 }/*# sourceMappingURL=main.css.map */
