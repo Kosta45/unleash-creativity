@@ -1,0 +1,16 @@
+.quote-section {
+  background: url("../../images/backgrounds/background-quote.png") center
+    no-repeat;
+  background-size: cover;
+}
+
+.quote-section__text {
+  margin: auto;
+  font-family: $font-heading;
+  font-weight: 700;
+  font-size: rem(48);
+  text-align: center;
+  color: $color-white;
+  max-width: rem(1060);
+  padding-block: rem(303) rem(323);
+}

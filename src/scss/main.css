@@ -460,4 +460,20 @@ a {
   height: 16.75rem;
   width: 16.75rem;
   background: url("../../images/design-block/asterisk.svg") no-repeat center/contain;
+}
+
+.quote-section {
+  background: url("../../images/backgrounds/background-quote.png") center no-repeat;
+  background-size: cover;
+}
+
+.quote-section__text {
+  margin: auto;
+  font-family: "DynaPuff", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+  color: #ffffff;
+  max-width: 66.25rem;
+  padding-block: 18.9375rem 20.1875rem;
 }/*# sourceMappingURL=main.css.map */
