@@ -244,6 +244,64 @@ a {
   font-family: "Manrope", sans-serif;
 }
 
+.footer {
+  background-color: #202020;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.footer__book-wrapper {
+  border: 1px solid #f2f2f2;
+  border-radius: 139px;
+  margin-bottom: 10.1875rem;
+}
+
+.footer__book-link {
+  display: flex;
+  padding: 2.625rem 8.5625rem;
+  gap: 2.8125rem;
+}
+
+.footer__book-title {
+  font-family: "DynaPuff", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.footer__book-info {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.footer__book-arrow {
+  margin-left: 1.5rem;
+  margin-bottom: -0.3125rem;
+}
+
+.footer__list-links {
+  display: flex;
+  gap: 2.25rem;
+}
+
+.footer__rights {
+  margin-top: 1.3125rem;
+  padding-bottom: 1.875rem;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: center;
+  color: #ffffff;
+}
+
 .main__hero-wrapper {
   background: linear-gradient(0.1turn, #d6d6d6, #faeb49);
   width: 100%;
