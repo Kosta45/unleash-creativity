@@ -1,0 +1,63 @@
+.graphics-design-wrapper {
+  background-color: $color-light-black;
+  padding-block: rem(80) rem(140);
+}
+
+.graphics-design {
+  margin: auto;
+}
+
+.graphics-design__title {
+  font-family: $font-heading;
+  font-weight: 700;
+  font-size: rem(80);
+  color: $color-white;
+  margin-bottom: rem(36);
+}
+
+.graphics-design__cart-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: rem(26);
+}
+
+.graphics-design__cart-item {
+  position: relative;
+}
+
+.graphics-design__cart-item-big {
+  grid-column: 1 / 3;
+}
+
+.graphics-design__cart-item:first-child::after {
+  content: "";
+  position: absolute;
+  bottom: 20%;
+  left: 40%;
+  height: rem(268);
+  width: rem(268);
+  background: url("../../images/design-block/soft-star.svg") no-repeat center /
+    contain;
+}
+
+.graphics-design__cart-item:nth-child(2)::after {
+  content: "";
+  position: absolute;
+  bottom: 18%;
+  left: 23%;
+  height: rem(268);
+  width: rem(268);
+  background: url("../../images/design-block/butterfly.svg") no-repeat center /
+    contain;
+}
+
+.graphics-design__cart-item:nth-child(3)::after {
+  content: "";
+  position: absolute;
+  bottom: 18%;
+  left: 23%;
+  height: rem(268);
+  width: rem(268);
+  background: url("../../images/design-block/asterisk.svg") no-repeat center /
+    contain;
+}
