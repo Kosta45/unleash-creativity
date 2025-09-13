@@ -22,7 +22,7 @@ pnpm-debug.log*
 # ===============================
 
 # Build output folder
-dist/
+# dist/
 
 # Optional temp or build folders
 build/
