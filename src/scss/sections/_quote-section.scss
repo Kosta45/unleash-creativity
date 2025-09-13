@@ -14,3 +14,28 @@
   max-width: rem(1060);
   padding-block: rem(303) rem(323);
 }
+
+@media (max-width: 1200px) {
+  .quote-section {
+    background: url("../../images/backgrounds/background-quote-tablet.png")
+      center no-repeat;
+    background-size: cover;
+  }
+
+  .quote-section__text {
+    padding-block: rem(274) rem(294);
+  }
+}
+
+@media (max-width: 768px) {
+  .quote-section {
+    background: url("../../images/backgrounds/background-quote-mobile.png")
+      center no-repeat;
+    background-size: cover;
+  }
+
+  .quote-section__text {
+    font-size: rem(24);
+    padding-block: rem(180) rem(173);
+  }
+}

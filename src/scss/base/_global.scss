@@ -18,3 +18,18 @@ a {
 .main {
   position: relative;
 }
+
+@media (max-width: 1200px) {
+  .container {
+    width: rem(704);
+  }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 560px) {
+  .container {
+    width: 90%;
+  }
+}

@@ -17,3 +17,19 @@
   padding-top: rem(491);
   padding-bottom: rem(119);
 }
+
+@media (max-width: 1200px) {
+  .main__hero-title {
+    padding-top: rem(273);
+    padding-bottom: rem(130);
+  }
+}
+
+@media (max-width: 768px) {
+  .main__hero-title {
+    font-size: rem(48);
+    padding-top: rem(412);
+    padding-bottom: rem(149);
+    max-width: rem(330);
+  }
+}

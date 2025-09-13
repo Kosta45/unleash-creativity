@@ -1,6 +1,6 @@
 .header {
   position: fixed;
-  background-color: #202020;
+  background-color: $color-light-black;
   display: flex;
   z-index: 1;
   justify-content: center;
@@ -35,6 +35,10 @@
   gap: rem(12);
 }
 
+.header__burger-menu-btn {
+  display: none;
+}
+
 .header__icon-img {
   height: rem(16);
 }
@@ -53,7 +57,28 @@
 }
 
 @media (max-width: 1200px) {
-  .header-scroll {
+  .header {
     display: none;
+  }
+
+  .header-scroll {
+    position: sticky;
+    top: 0;
+  }
+
+  .header__menu-list {
+    display: none;
+  }
+
+  .header__burger-menu-btn {
+    display: block;
+    background: none;
+    border: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-scroll {
+    width: 100%;
   }
 }

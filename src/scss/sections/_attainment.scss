@@ -28,7 +28,7 @@
 
 .attainments__text {
   font-weight: 500;
-  font-size: 16px;
+  font-size: rem(16);
   color: #fff;
   font-family: $font-main;
 }
@@ -58,4 +58,44 @@
   font-size: rem(16);
   color: $color-white;
   font-family: $font-main;
+}
+
+@media (min-width: 1500px) {
+  .attainments__background {
+    left: clamp(40%, 62vw, 140%);
+  }
+}
+
+@media (max-width: 768px) {
+  .attainments__title {
+    font-size: rem(36);
+    max-width: rem(342);
+  }
+
+  .attainments__text {
+    font-size: rem(15);
+  }
+
+  .attainments__item-quantity {
+    font-size: rem(36);
+  }
+
+  .attainments__background {
+    width: rem(345);
+    height: rem(345);
+  }
+
+  .attainments__info {
+    width: rem(400);
+  }
+
+  .attainments__list {
+    gap: rem(14);
+  }
+}
+
+@media (max-width: 560px) {
+  .attainments__info {
+    width: rem(340);
+  }
 }
