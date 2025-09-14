@@ -33,3 +33,8 @@ This project intentionally uses two identical headers.
 The purpose is to demonstrate a custom sticky-header effect where the background changes on scroll.
 The implementation had to be CSS-only (no JavaScript) as per the course requirements.
 In production, such an effect would usually be implemented differently, but here it serves as an exercise in CSS capabilities.
+
+
+Deployed: 
+
+https://unleas-creativity.netlify.app/
